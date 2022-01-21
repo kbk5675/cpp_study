@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d9de6a18-d61a-4828-8f9c-2b20b6559cfa": {
+      "ProjectGuid": "d9de6a18-d61a-4828-8f9c-2b20b6559cfa",
+      "DisplayName": "CoffeeVendingMachineUseFunction",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
