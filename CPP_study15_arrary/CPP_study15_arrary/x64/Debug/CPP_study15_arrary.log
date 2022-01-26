@@ -1,0 +1,5 @@
+﻿  CPP_study15_arrary.cpp
+E:\CPP_WorkSpace\CPP_study15_arrary\CPP_study15_arrary\CPP_study15_arrary.cpp(18,11): warning C4101: 'monster_3' :참조되지 않은 지역 변수입니다.
+E:\CPP_WorkSpace\CPP_study15_arrary\CPP_study15_arrary\CPP_study15_arrary.cpp(17,11): warning C4101: 'monster_2' :참조되지 않은 지역 변수입니다.
+E:\CPP_WorkSpace\CPP_study15_arrary\CPP_study15_arrary\CPP_study15_arrary.cpp(16,11): warning C4101: 'monster' :참조되지 않은 지역 변수입니다.
+  CPP_study15_arrary.vcxproj -> E:\CPP_WorkSpace\CPP_study15_arrary\x64\Debug\CPP_study15_arrary.exe

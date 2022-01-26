@@ -1,0 +1,3 @@
+﻿  CPP_study16_LottoMachine.cpp
+E:\CPP_WorkSpace\CPP_study16_LottoMachine\CPP_study16_LottoMachine\CPP_study16_LottoMachine.cpp(14,6): warning C4101: 'temp' :참조되지 않은 지역 변수입니다.
+  CPP_study16_LottoMachine.vcxproj -> E:\CPP_WorkSpace\CPP_study16_LottoMachine\x64\Debug\CPP_study16_LottoMachine.exe
