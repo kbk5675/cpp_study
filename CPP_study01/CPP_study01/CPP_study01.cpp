@@ -37,5 +37,7 @@ int main()
 	ub -= 1;
 	cout << ub << endl;
 	//위와 같은 이유
+
+	return 0;
 }
 
