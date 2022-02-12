@@ -1,6 +1,0 @@
-﻿  CPP_stduy27_Polymorphism.cpp
-E:\CPP_WorkSpace\CPP_stduy27_Polymorphism\CPP_stduy27_Polymorphism\CPP_stduy27_Polymorphism.cpp(96,9): error C2259: 'Player': 추상 클래스를 인스턴스화할 수 없습니다.
-E:\CPP_WorkSpace\CPP_stduy27_Polymorphism\CPP_stduy27_Polymorphism\CPP_stduy27_Polymorphism.cpp(25): message : 'Player' 선언을 참조하십시오.
-E:\CPP_WorkSpace\CPP_stduy27_Polymorphism\CPP_stduy27_Polymorphism\CPP_stduy27_Polymorphism.cpp(96,9): message : 다음 멤버가 원인입니다.
-E:\CPP_WorkSpace\CPP_stduy27_Polymorphism\CPP_stduy27_Polymorphism\CPP_stduy27_Polymorphism.cpp(96,9): message : 'void Player::VAttack(void)': abstract입니다.
-E:\CPP_WorkSpace\CPP_stduy27_Polymorphism\CPP_stduy27_Polymorphism\CPP_stduy27_Polymorphism.cpp(42): message : 'Player::VAttack' 선언을 참조하십시오.
