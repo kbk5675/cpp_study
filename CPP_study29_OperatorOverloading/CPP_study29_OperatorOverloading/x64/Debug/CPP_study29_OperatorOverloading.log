@@ -1,0 +1,4 @@
+﻿  CPP_study29_OperatorOverloading.cpp
+E:\CPP_WorkSpace\CPP_study29_OperatorOverloading\CPP_study29_OperatorOverloading\CPP_study29_OperatorOverloading.cpp(51,16): warning C4552: '+': 식의 결과가 사용되지 않습니다.
+E:\CPP_WorkSpace\CPP_study29_OperatorOverloading\CPP_study29_OperatorOverloading\CPP_study29_OperatorOverloading.cpp(52,16): warning C4552: '+': 식의 결과가 사용되지 않습니다.
+E:\CPP_WorkSpace\CPP_study29_OperatorOverloading\CPP_study29_OperatorOverloading\CPP_study29_OperatorOverloading.cpp(53): error C4716: 'operator+': 값을 반환해야 합니다.
