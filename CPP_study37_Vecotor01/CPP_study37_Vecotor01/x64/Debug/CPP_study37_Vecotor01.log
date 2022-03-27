@@ -1,0 +1,14 @@
+﻿  CPP_study37_Vecotor01.cpp
+E:\CPP_WorkSpace\CPP_study37_Vecotor01\CPP_study37_Vecotor01\CPP_study37_Vecotor01.cpp(75,6): warning C4834: 'nodiscard' 특성이 포함된 함수의 반환 값을 버리는 중
+E:\CPP_WorkSpace\CPP_study37_Vecotor01\CPP_study37_Vecotor01\CPP_study37_Vecotor01.cpp(76,6): warning C4834: 'nodiscard' 특성이 포함된 함수의 반환 값을 버리는 중
+E:\CPP_WorkSpace\CPP_study37_Vecotor01\CPP_study37_Vecotor01\CPP_study37_Vecotor01.cpp(94,17): warning C4267: '=': 'size_t'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+E:\CPP_WorkSpace\CPP_study37_Vecotor01\CPP_study37_Vecotor01\CPP_study37_Vecotor01.cpp(154,17): warning C4267: '=': 'size_t'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+  CPP_study37_Vecotor01.vcxproj -> E:\CPP_WorkSpace\CPP_study37_Vecotor01\x64\Debug\CPP_study37_Vecotor01.exe
