@@ -1,0 +1,54 @@
+#include pch.h
+#include iostream
+#include CorePch.h
+
+#include thread  리눅스&윈도우 표준 쓰레드.
+
+void HelloThread()
+{
+	cout  Hello Thread  endl;
+}
+
+void HelloThread_2(int32 num)
+{
+	cout  num  endl;
+}
+
+int main()
+{
+	HelloWorld();
+
+	 stdthread t(HelloThread);  Main() 함수와 별개의 병렬
+
+	stdthread t; 
+
+	t = stdthread(HelloThread);
+
+	if (t.joinable())  연동이 되었는지 확인..
+		t.join();  Main함수에서 t 쓰레드 끝날때까지 기다리겠다.
+
+	===========================================================
+
+	int32 count = t.hardware_concurrency();  CPU 코어 개수
+	auto id = t.get_id();  각 쓰레드마다 부여되는 id
+	cout  count  'n'  id;
+
+	t.detach();  stdthread 객체에서 실제 쓰레드를 분리. 잘안쓴다.
+				 (독립적으로 만듬)
+
+	===========================================================
+
+	vectorstdthread v;
+
+	for (int32 i = 0; i  10; i++)
+	{
+		v.push_back(stdthread(HelloThread_2, i));
+	}
+
+	for (int32 i = 0; i  10; i++)
+	{
+		if (v[i].joinable())
+			v[i].join();
+	}
+
+}
