@@ -1,0 +1,4 @@
+﻿  CPP_study42_Template02.cpp
+E:\CPP_WorkSpace\CPP_study42_Template02\CPP_study42_Template02\CPP_study42_Template02.cpp(70,15): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\CPP_WorkSpace\CPP_study42_Template02\CPP_study42_Template02\CPP_study42_Template02.cpp(42): warning C4717: 'Hello': 모든 제어 경로에서 재귀적입니다. 함수로 인해 런타임 스택 오버플로가 발생합니다.
+  CPP_study42_Template02.vcxproj -> E:\CPP_WorkSpace\CPP_study42_Template02\Debug\CPP_study42_Template02.exe
