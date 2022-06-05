@@ -17,7 +17,6 @@ public:
 
 	void Init();
 	void Update();
-
 	void CreatePlayer();
 
 private:
@@ -35,6 +34,5 @@ private:
 	// 플레이어를 찾아가기 위한 주소값만 선언.
 	
 	Field* _field;
-
 };
 
