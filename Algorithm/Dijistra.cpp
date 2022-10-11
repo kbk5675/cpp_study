@@ -3,16 +3,9 @@
 #include <iostream>
 #include <vector>
 #include <list>
-#include <algorithm>
 using namespace std;
 
-struct Vertex
-{
-	int data = 10;
-};
-
 vector<vector<int>> adjacent;
-vector<pair<int, int>> disConnected;
 
 void CreateGraph()
 {
@@ -40,15 +33,14 @@ void Dijikstra(int here)
 	vector<int> best(6, INT32_MAX);
 	vector<int> parent(6, -1);
 
-	discovered.push_back(VertexCost{ here, 0 });
+	discovered.push_back({ here,0 });
 	best[here] = 0;
 	parent[here] = 0;
 
-	while (!discovered.empty())
+	while (discovered.empty() == false)
 	{
 		list<VertexCost>::iterator bestIt;
 		int bestCost = INT32_MAX;
-
 		for (auto it = discovered.begin(); it != discovered.end(); it++)
 		{
 			if (it->cost < bestCost)
@@ -63,28 +55,30 @@ void Dijikstra(int here)
 		discovered.erase(bestIt);
 
 		if (best[here] < cost)
+		{
 			continue;
-
+		}
 
 		for (int there = 0; there < 6; there++)
 		{
 			if (adjacent[here][there] == -1)
 			{
-				disConnected.push_back({ here, there });
 				continue;
 			}
-			
 
 			int nextCost = best[here] + adjacent[here][there];
 			if (nextCost >= best[there])
+			{
 				continue;
-			
-			cout << "vertex :" << here << " to " << "vertex :" << there << "가중치 : " << nextCost << '\n';
+			}
 
-			discovered.push_back(VertexCost{ there, nextCost });
-			best[there] = there;
+			cout << "Vertex : " << here << " To " << there << " 의 가중치 : " << nextCost << '\n';
+
+			discovered.push_back({ there, nextCost });
+			best[there] = nextCost;
 			parent[there] = here;
 		}
+		
 	}
 
 
@@ -93,17 +87,7 @@ void Dijikstra(int here)
 int main()
 {
 	CreateGraph();
-
-	for (int i = 0; i < 6; i++)
-	{
-		Dijikstra(i);
-	}
-	
-	// 연결되지 않은 친구들
-	for (int i = 0; i < disConnected.size(); i++)
-	{
-		cout << disConnected[i].first << " to " << disConnected[i].second << " not to connected\n";
-	}
+	Dijikstra(0);
 
 
 	return 0;
